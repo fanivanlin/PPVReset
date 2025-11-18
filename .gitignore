@@ -1,0 +1,20 @@
+# 忽略 UE 的临时/编译产物
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+
+# 忽略平台特定文件
+.DS_Store
+Thumbs.db
+
+# 忽略备份/日志
+*.log
+*.tmp
+*.bak
+
+# 如果你用 Rider / VSCode 等，可以按需加
+.idea/
+.vscode/
